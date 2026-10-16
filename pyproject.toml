@@ -1,0 +1,9 @@
+[project]
+name = "susu-savings-group"
+version = "0.1.0"
+description = "Manage one rotating savings group (susu): weekly contributions, payouts in join order."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+susu = "susu.cli:main"
